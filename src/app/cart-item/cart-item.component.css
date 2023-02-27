@@ -1,0 +1,78 @@
+.cart-item {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.hero-details.strong {
+    position: fixed;
+}
+
+.hero-details {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.count {
+    border: 2px #dcd3d3 solid;
+    width: 160px;
+    height: 50px;
+    padding: 15px;
+    display: flex;
+    border-radius: 15px;
+    background: white;
+    font-size: 20px;
+}
+
+  
+.num {
+    width: 35%;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn-1 {
+    background-color: white;
+    margin-top: -15px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-weight: 700!important;
+}
+  
+.btn-2{
+    background-color: white;
+    margin-top: -15px;
+    margin-left: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700!important;
+}
+  
+.btn-1:hover {
+    color: rgb(15, 15, 15);
+}
+  
+.btn-2:hover {
+    color: rgb(15, 15, 15);
+}
+
+input {
+    margin-left: 5px;  
+    border: 1px solid #6C757D;
+} 
+  
+input[type="number"] {
+    -moz-appearance: textfield !important;
+    appearance: textfield !important;
+}
+  
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}

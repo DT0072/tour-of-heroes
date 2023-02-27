@@ -11,7 +11,7 @@
           <app-cart-item *ngFor="let item of items" [childItem]="item"></app-cart-item>
           <br>
           <div class="pay">
-            <a href="/checkout">
+            <a routerLink="/checkout">
               <button class="btn btn-primary btn-sm" *ngIf="this.items.length> 0"> <!--Way 3-->
                   Go to checkout
               </button>

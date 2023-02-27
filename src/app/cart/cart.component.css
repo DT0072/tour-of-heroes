@@ -6,7 +6,6 @@
     box-shadow: 0px 25px 40px #1687d933;
 }
 
-
 .Header {
     margin: auto;
     margin-top: 8px;
@@ -36,35 +35,6 @@
     cursor: pointer;
 }
 
-.cart-item {
-    margin-top: 20px;
-    margin-left: 35px;
-}
-
-.hero-details.strong {
-    position: fixed;
-}
-
-.hero-details {
-    margin: auto;
-    width:90%;
-    height: 15%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.count {
-    border: 2px #dcd3d3 solid;
-    width: 10rem;
-    height: 50px;
-    padding: 15px;
-    display: flex;
-    border-radius: 15px;
-    background: white;
-    font-size: 20px;
-}
-
 .desc {
     margin-left: 40px;
     line-height: 10px;
@@ -72,69 +42,6 @@
     font-family: 'Open Sans';
     font-weight: 100;
     color: #909090;
-}
-
-.counter {
-    border: 2px #dcd3d3 solid;
-    margin-left: 27em;
-    width: 10rem;
-    height: 50px;
-    padding: 15px;
-    display: flex;
-    border-radius: 15px;
-    background: white;
-    font-size: 20px;
-  }
-  
-input {
-    margin-left: 5px;  
-    border: 1px solid #6C757D;
-} 
-  
-input[type="number"] {
-    -moz-appearance: textfield !important;
-    appearance: textfield !important;
-}
-  
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-}
-  
-.btn-1 {
-    background-color: white;
-    margin-top: -15px;
-    padding-left: 13px;
-    padding-right: 13px;
-    padding-top: 8px;
-    padding-bottom: 10px;
-    font-weight: 700!important;
-}
-  
-.btn-2{
-    background-color: white;
-    margin-top: -15px;
-    margin-left: 5px;
-    padding-left: 13px;
-    padding-right: 13px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 700!important;
-}
-  
-.btn-1:hover {
-    color: rgb(15, 15, 15);
-}
-  
-.btn-2:hover {
-    color: rgb(15, 15, 15);
-}
-  
-.num {
-    width: 35%;
-    border: none;
-    font-size: 15px;
-    text-align: center;
 }
 
 .card {
