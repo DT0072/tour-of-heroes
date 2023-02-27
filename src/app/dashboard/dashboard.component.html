@@ -1,0 +1,11 @@
+<br>
+<h2>Top Heroes</h2>
+<div class= "heroes-menu d-flex justify-content-center">
+    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" 
+    *ngFor= "let hero of heroes" routerLink= "/detail/{{hero.id}}"> <!--'*ngFor' repeater creates as many links as are in component's 'heroes' array-->
+        {{hero.name}}
+    </a>
+</div>
+<div class="goBackButton d-flex justify-content-center mt-4">
+    <button href="/homepage" class="btn btn-outline btn-lg" (click)="goBack()"><i class="material-icons">exit_to_app</i>&nbsp; Go back</button>
+</div>

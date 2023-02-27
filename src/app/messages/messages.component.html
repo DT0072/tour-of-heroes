@@ -1,0 +1,9 @@
+<!---<p>messages works!</p>-->
+<!--Template binds directly to the messageService component-->
+<div *ngIf= "messageService.message.length"> <!--Only displays the messages area if there are messages-->
+    <h2>
+        Messages
+    </h2>
+    <button type= "button" class= "btn btn-primary btn-sm" (click)= "messageService.clear()">Clear message</button>
+    <div id="message" *ngFor= 'let message of messageService.message'> {{message}} </div> <!--Present list of messages in repeated 'div' elements-->
+</div>

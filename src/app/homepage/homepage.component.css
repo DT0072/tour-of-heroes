@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.btn.btn-outline.btn-sm {
+    color: #000;
+    background-color: #e3c7c5;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}

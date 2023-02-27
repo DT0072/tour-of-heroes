@@ -1,0 +1,20 @@
+<div class= "cart-item">
+    <div class= "hero-details">
+      <span><strong>{{ childItem.name }}</strong></span>&nbsp;&nbsp;
+      <div class="col-">
+        <div class="hero-price">
+          <span><strong>{{ childItem.price }}</strong></span><br>
+        </div>
+      </div>
+      <div class="col-">
+        <div class= "count">
+          <button class= "btn-1" (click)="handleMinus()">-</button>
+          <input type="number" class="num" name="input" [(ngModel)]="this.childItem.quantity" min="0" max="99" required/>
+          <button class= "btn-2" (click)="handlePlus()">+</button>
+        </div>
+      </div>
+    </div>
+    <div class= "desc">
+      <span>{{ childItem.description }}</span>
+    </div>
+</div>

@@ -1,0 +1,52 @@
+<!--Display hero details-->
+<br>
+<div class="details d-flex justify-content-center">
+    <div class="card">
+        <div *ngIf= "hero">
+            <div class="text mt-3">
+                <h2><strong>{{hero.name | uppercase}}</strong> Details</h2>
+                <div class="row">
+                    <div class="col">
+                        <div class="hero">
+                            <span><strong>Hero ID: </strong>
+                                {{hero.id}}
+                            </span>
+                        </div>
+                        <!--Display the heroes-->
+                        <div>
+                        <label for="hero-name">Hero name: {{ hero.name }}</label> &nbsp;
+            
+                        </div>
+                        <!--Display hero price-->
+                        <div>
+                            <span><strong>Hero price: </strong>
+                                {{hero.price}}
+                            </span>
+                        </div>
+                        <br>
+                        <!--Display hero description-->
+                        <div>
+                            <span><strong>Hero Description: </strong><br>{{ hero.description }}</span>
+                        </div>
+                        <!--Plus & Minus Button-->
+                        <div class="counter">
+                            <button class= "btn-1" (click)="handleMinus()">-</button>
+                            <input type="number" class="num" name="input" [(ngModel)]="quantity" min="0" max="99" required/>
+                            <button class= "btn-2" (click)="handlePlus()">+</button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="https://hypebeast.com/image/2021/10/bored-ape-yacht-club-nft-3-4-million-record-sothebys-metaverse-1.jpg" width="250px">
+                    </div>
+                </div>
+            </div>
+            <button class= "chat" type= "button"><i class="material-icons">headset_mic</i>&nbsp; Chat Now</button>
+            <button class= "add" type= "button" (click)= "addToCart(hero)"><i class="material-icons">add_shopping_cart</i>&nbsp;Add to Cart</button>
+            <a href="/checkout"><button class= "buy" type= "button"><i class="material-icons">shopping_bag</i>&nbsp;Buy Now</button></a>
+        </div>
+    </div>
+</div>
+<button class= "back btn btn-primary btn-lg" (click)= "goBack()"><i class="material-icons">exit_to_app</i>&nbsp; Go back</button>
+
+
+

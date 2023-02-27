@@ -1,0 +1,67 @@
+h2 {
+  text-align: center;
+
+}
+  
+.heroes-menu {
+  padding: 0;
+  
+  /* flexbox */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
+/*Top heroes dashboard button*/
+a {
+  padding: 1rem;
+  font-size: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  width: 40%;
+  min-width: 70px;
+  margin: .5rem auto;
+  
+  /* flexbox */
+  order: 0;
+  flex: 0 1 auto;
+  align-self: auto;
+}
+  
+@media (min-width: 600px) {
+  a {
+    width: 18%;
+    box-sizing: content-box;
+    border: 0;
+  }
+}
+
+a.btn.btn-primary.btn-lg:hover {
+  background-color: #ceacb3;
+  color: #000;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  background-color: #3f525c;
+  border-color: #4d5c64;
+}
+
+a.btn.btn-primary.btn-lg.active {
+  --bs-btn-padding-y: 0.25rem;
+  --bs-btn-padding-x: 2rem;
+  --bs-btn-font-size: 0.9rem;
+  --bs-btn-border-radius: 1rem;
+}
+
+.btn.btn-outline.btn-lg {
+  color: #000;
+  background-color: #e3c7c5;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-weight: 700;
+}

@@ -1,0 +1,164 @@
+.details {
+  color: #000;
+}
+
+.card {
+  width: 50em;
+  min-height: fit-content;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 25px 40px #1687d933;
+}
+
+.text {
+  margin-left: 25px;
+}
+
+label {
+  color: #000;
+  font-weight: bold;
+  margin-left: auto;
+  }
+
+.counter {
+  border: 2px #dcd3d3 solid;
+  margin-top: 60px;
+  width: 10rem;
+  height: 50px;
+  padding: 15px;
+  display: flex;
+  border-radius: 15px;
+  background: white;
+  font-size: 20px;
+}
+
+input {
+  margin-left: 5px;  
+  border: 1px solid #6C757D;
+} 
+
+input[type="number"] {
+  -moz-appearance: textfield !important;
+  appearance: textfield !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.btn-1 {
+  background-color: white;
+  margin-top: -15px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  font-weight: 700!important;
+}
+
+.btn-2{
+  background-color: white;
+  margin-top: -15px;
+  margin-left: 5px;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700!important;
+}
+
+.btn-1:hover {
+  color: rgb(15, 15, 15);
+}
+
+.btn-2:hover {
+  color: rgb(15, 15, 15);
+}
+
+.num {
+  width: 35%;
+  border: none;
+  font-size: 15px;
+  text-align: center;
+}
+
+button.chat {
+  background-color: white;
+  border-radius: 1em;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+button.chat:hover {
+  background-color: #42545C;
+}
+
+button.chat:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+
+button.add {
+  background-color: white;
+  border-radius: 1em;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+button.add:hover {
+  background-color: #42545C;
+}
+
+button.add:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+
+button.buy {
+  text-decoration: none !important;
+  background-color: white;
+  border-radius: 1em;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+button.buy:hover {
+  background-color: #42545C;
+}
+
+button.buy:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+
+button.back {
+  margin-top: 20px;
+  background-color: #ceacb3;
+  border-radius: 1em;
+  border: 0;
+  font-size: 12px;
+  margin-left: 15px;
+  font-weight: 500!important;
+}
+
+button.back:hover {
+  background-color: #42545C;
+}
+
+button.back:disabled {
+  background-color: #eee;
+  color: #ccc;
+  cursor: auto;
+}
+
+img {
+  margin-left: 60px;
+  border-radius: 20px;
+}
