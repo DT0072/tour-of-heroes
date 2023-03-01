@@ -45,12 +45,18 @@
 }
 
 .card {
+    margin-left: auto;
+    margin-right: auto;
     width: 50em;
     border-radius: 20px;
 }
 
 .pay {
     position: relative;
+}
+
+.shipping {
+    padding-right: 0;
 }
 
 .btn.btn-primary.btn-sm {
