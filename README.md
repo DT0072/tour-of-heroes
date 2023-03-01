@@ -11,7 +11,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 
 ## Build
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.    
+Run `ng build` to build the project however to build the application and deploy the build artifacts elsewhere when ready the application is ready to deploy. The build artifacts will be stored in the `dist/` directory.    
 
 
 ## Further help
