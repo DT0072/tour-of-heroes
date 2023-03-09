@@ -1,15 +1,20 @@
 <div class= "cart-item">
-    <div class= "hero-details row">
-      <div class="col-5">
-        <span><strong>{{ childItem.name }}</strong></span>&nbsp;&nbsp;
-      </div>
-      <div class="col">
-        <div class="hero-price">
-          <span><strong>{{ childItem.price }}</strong></span><br>
-        </div>
+  <div class= "hero-details row">
+    <div class="col-5">
+      <span><strong>{{ childItem.name }}</strong></span>&nbsp;&nbsp;
+    </div>
+    <div class="col">
+      <div class="hero-price">
+        <span><strong>{{ childItem.price }}</strong></span><br>
       </div>
     </div>
+    <div class="col">
+      <span><strong>{{childItem.quantity}}</strong></span>
+    </div>
+  </div>
+  <div class="row">
     <div class= "desc">
       <span>{{ childItem.description }}</span>
     </div>
   </div>
+</div>

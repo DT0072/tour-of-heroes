@@ -1,21 +1,17 @@
 <br>
-<div class="row justify-content-center">
+<div class="row d-flex justify-content-center">
     <div class="checkout-container">
         <div class="row">
             <div class="header">
-                <div class="col">
-                    <h3 class="heading">Checkout</h3>
-                </div>
-                <div class="col-15">
-                    <a href= "/cart" ng-click= "cart-item(item.name, item.price, item.description, -1000000000)" class="Action">Remove All</a>
-                </div>
+                <h3 class="heading">Checkout</h3>
+                <a href= "/cart" ng-click= "cart-item(item.name, item.price, item.description, -1000000000)" class="Action">Remove All</a>
             </div>
-        </div>
-        <div class="row">
-            <div class="total col-sm">
-                <app-checkout-item *ngFor="let item of items" [childItem]="item"></app-checkout-item>
+            <div class="row">
+                <div class="col-sm">
+                    <app-checkout-item *ngFor="let item of items" [childItem]="item"></app-checkout-item>
+                    <br>
+                </div>
             </div>
         </div>
     </div>
 </div>
-

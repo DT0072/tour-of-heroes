@@ -1,0 +1,23 @@
+.cart-item {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.hero-details.strong {
+    position: fixed;
+}
+
+.hero-details {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc {
+    line-height: 10px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    color: #909090;
+}
