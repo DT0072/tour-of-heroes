@@ -18,6 +18,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { CartItemComponent } from './cart-item/cart-item.component';
+import { CheckoutItemComponent } from './checkout-item/checkout-item.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { CartItemComponent } from './cart-item/cart-item.component';
     CheckoutComponent,
     HomepageComponent,
     CartItemComponent,
+    CheckoutItemComponent,
   ],
   imports: [
     HttpClientModule,
