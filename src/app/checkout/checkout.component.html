@@ -12,7 +12,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="total">
+            <div class="total col-sm">
+                <app-checkout-item *ngFor="let item of items" [childItem]="item"></app-checkout-item>
             </div>
         </div>
     </div>
