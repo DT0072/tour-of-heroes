@@ -9,7 +9,7 @@
 .Header {
     margin: auto;
     margin-top: 8px;
-    width:90%;
+    width: 90%;
     height: 15%;
     display: flex;
     justify-content: space-between;
@@ -23,25 +23,12 @@
     color: #2F3841;
 }
 
-.img {
-    margin-left: 2em;
-}
-
 .Action {
     font-size: 14px;
     font-family: 'Open Sans';
     font-weight: 600;
     color: #E44C4C;
     cursor: pointer;
-}
-
-.desc {
-    margin-left: 40px;
-    line-height: 10px;
-    font-size: 15px;
-    font-family: 'Open Sans';
-    font-weight: 100;
-    color: #909090;
 }
 
 .card {
