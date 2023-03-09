@@ -12,7 +12,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 const routes: Routes = [
   { path: '', redirectTo: '/homepage', pathMatch: 'full'}, // Default route
   { path: 'detail/:id', component: HeroDetailsComponent}, // Parameterized route to 'routes' array that matches path pattern to hero detail view
-  { path: 'dashboard', component: DashboardComponent }, // Add route to 'routes' array taht matches a path to 'DashboardComponent'
+  { path: 'dashboard', component: DashboardComponent }, // Add route to 'routes' array that matches a path to 'DashboardComponent'
   { path: 'heroes', component: HeroesComponent },
   { path: 'cart', component: CartComponent},
   { path: 'checkout', component: CheckoutComponent},
