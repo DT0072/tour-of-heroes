@@ -42,10 +42,6 @@
     position: relative;
 }
 
-.shipping {
-    padding-right: 0;
-}
-
 .btn.btn-primary.btn-sm {
     border-radius: 10px;
     border: 0;
