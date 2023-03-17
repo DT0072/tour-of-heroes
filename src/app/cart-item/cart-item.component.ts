@@ -15,6 +15,7 @@ export class CartItemComponent {
     if (this.childItem.quantity<= 0) {
       this.childItem.quantity= 1
     }
+    this.handleMultiply();
   }
   
   handlePlus() {
@@ -22,6 +23,10 @@ export class CartItemComponent {
     if (this.childItem.quantity>= 101) {
       this.childItem.quantity= 100
     }
+    this.handleMultiply();
   }
 
+  handleMultiply(){
+    this.childItem.quantity * (+this.childItem.price.replace('RM', ''));
+  }
 }

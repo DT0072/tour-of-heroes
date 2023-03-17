@@ -10,22 +10,23 @@
         <div class="col-sm">
           <app-cart-item *ngFor="let item of items" [childItem]="item"></app-cart-item>
           <br>
-          <div class="pay">
+        </div>
+      </div>
+    </div>
+    <div *ngIf="this.items.length">
+      <hr>
+      <div class="row">
+          <div class="col-6 text-left">
+            <span><strong>Total {{totalPrice.toFixed(2)}}</strong></span>
+          </div>
+          <div class="pay col-6">
             <a routerLink="/checkout">
-              <button class="btn btn-primary btn-sm" *ngIf="this.items.length> 0"> <!--Way 3-->
+              <button class="btn btn-primary btn-sm"> <!--*ngIf="this.items.length> 0"> Way 3-->
                   Go to checkout
               </button>
             </a>
           </div>
-          <br>
-        </div>
-      </div>
-    </div>
-    <div class="total bottom-no">
-      <div class="row">
-        <div class="col-sm">
-          <span *ngIf="this.items.length"><hr><strong>Total</strong></span>
-        </div>
+        <br>
       </div>
     </div>
   </div>

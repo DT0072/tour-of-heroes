@@ -13,7 +13,7 @@ import { HeroDetailsComponent } from '../hero-details/hero-details.component';
 export class CartComponent {
   
   items= this.cartService.getItems();
-  
+  totalPrice : number = 0;
 
     checkoutForm= this.formBuilder.group({name: '', address: ''});
     right: any;
@@ -23,12 +23,18 @@ export class CartComponent {
     private formBuilder: FormBuilder
   ){}
 
+  ngOnInit(){
+    this.items.forEach(item => {
+      this.totalPrice += (+item.price.replace('RM','')) * item.quantity;
+    })
+  }
+
   onSubmit(): void{
     //Process checkout data
     this.items= this.cartService.emptyCart();
     console.warn('Your order submitted successfully', this.checkoutForm.value);
   }
-
+  
   showButton(){
   this.items;
     //   return this.items.length> 0; (Way 1)

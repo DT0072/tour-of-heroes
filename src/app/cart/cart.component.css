@@ -39,8 +39,8 @@
 }
 
 .pay {
-    position: relative;
-}
+    text-align: right !important;
+} 
 
 .btn.btn-primary.btn-sm {
     border-radius: 10px;
