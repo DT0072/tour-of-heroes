@@ -5,6 +5,7 @@ import { HttpClientModule} from '@angular/common/http'; //Users can add, edit, a
 import { InMemoryDataService} from './in-memory-data.service';
 import { AccordionModule } from 'primeng/accordion'; //accordion and accordion tab
 import { InputNumberModule } from 'primeng/inputnumber';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
@@ -46,6 +47,7 @@ import { CheckoutItemComponent } from './checkout-item/checkout-item.component';
     AppRoutingModule,
     AccordionModule,
     InputNumberModule,
+    FlexLayoutModule
   ],
   providers: [
     // No need to place providers due to the 'providedIn' flag
