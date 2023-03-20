@@ -15,7 +15,33 @@ h3 {
     float: right !important;
     padding-bottom: 5px;
 }
-    
+
+.topnav-right .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav-right a:not(:first-child){display: none;}
+    .topnav-right a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .topnav-right .responsive {position: relative;}
+    .topnav-right .responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav-right .responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
 a.btn.btn-primary.btn-sm:hover {
     color: white;
     background-color: #42545C;
@@ -31,3 +57,4 @@ a.btn.btn-primary.btn-sm {
     margin-left: 8px;
     border-radius: 10px;
 }
+

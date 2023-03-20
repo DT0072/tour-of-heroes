@@ -1,4 +1,6 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Link to material-icons-->
+
 <div class="row d-flex justify-content-space-between">
     <div class="col">
         <div class="topnav-left mt-3">
@@ -6,10 +8,13 @@
         </div>
     </div>
     <div class="col">
-        <div class="topnav-right">
+        <div class="topnav-right" id="myTopnav">
             <a routerLink= "/dashboard" class="btn btn-primary btn-sm"><i class="material-icons">toc</i>&nbsp; Dashboard</a>
             <a routerLink= "/heroes" class="btn btn-primary btn-sm"><i class="material-icons">people</i>&nbsp; Heroes</a>
             <a routerLink= "/cart" class="btn btn-primary btn-sm"><i class="material-icons">shopping_cart</i>&nbsp; Cart</a>
+            <a href= "javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
     </div>
 </div>
