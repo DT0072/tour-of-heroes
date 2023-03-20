@@ -15,17 +15,17 @@
     </div>
     <div *ngIf="this.items.length">
       <hr>
-      <div class="row">
-          <div class="col-6 text-left">
-            <span><strong>Total {{totalPrice.toFixed(2)}}</strong></span>
-          </div>
-          <div class="pay col-6">
-            <a routerLink="/checkout">
-              <button class="btn btn-primary btn-sm"> <!--*ngIf="this.items.length> 0"> Way 3-->
-                  Go to checkout
-              </button>
-            </a>
-          </div>
+      <div class=" container row">
+        <div class="col-6 px-4">
+          <span><strong>Total: RM {{totalPrice.toFixed(2)}}</strong></span>
+        </div>
+        <div class="pay col-6">
+          <a routerLink="/checkout">
+            <button class="btn btn-primary btn-sm"> <!--*ngIf="this.items.length> 0"> Way 3-->
+              Go to checkout
+            </button>
+          </a>
+        </div>
         <br>
       </div>
     </div>
