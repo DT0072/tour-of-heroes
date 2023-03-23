@@ -159,6 +159,22 @@ button.back:disabled {
 }
 
 img {
-  margin-left: 60px;
   border-radius: 20px;
+}
+
+@media screen and (max-width: 620px) {
+  .img {
+    margin-top: 20px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .card {
+    width: 55em;
+  }
+
+  .img {
+    margin-right: 15px;
+  }
 }
