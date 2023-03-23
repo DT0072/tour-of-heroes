@@ -12,6 +12,10 @@ h3 {
 }
 
 .topnav-right {
+    overflow: hidden;
+}
+
+.topnav-right {
     float: right !important;
     padding-bottom: 5px;
 }
@@ -20,7 +24,12 @@ h3 {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+.fa-bars:before {
+    color: black;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 620px) {
     .topnav-right a {display: none;}
     .topnav-right a.icon {
         float: right;
@@ -28,7 +37,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 620px){
     .topnav-right.responsive {position: relative;}
     .topnav-right.responsive a.icon {
         position: absolute;
