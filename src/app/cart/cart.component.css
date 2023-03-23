@@ -58,7 +58,7 @@
     background-color: black;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
     .shipping {
         margin-top: 20px;
     }
