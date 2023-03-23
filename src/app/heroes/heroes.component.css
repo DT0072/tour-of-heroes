@@ -114,3 +114,17 @@ h2 {
 .heroes .name {
   align-self: center;
 }
+
+@media screen and (max-width: 320px ) {
+  .heroes {
+    padding-left: 0%;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 315px ) {
+  .heroes {
+    padding-left: 0%;
+    width: 80%;
+  }
+}
